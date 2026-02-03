@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"></i>
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testmonials">Avaliações</a>
+                </li>
+            </ul>
+                <button class="btn-defaut">
+                    Peça aqui
+                </button>
+                
+                <button id="mobile_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            
+            </nav>
+            <div id="mobile_menu">
+                <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testmonials">Avaliações</a>
+                </li>
+            </ul> 
+
+            <button class="btn-defaut">
+                    Peça aqui
+                </button>
+            </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+           <div class="shape">
+
+           </div>
+           
+            <div id="cta">
+                <h1 class="title">
+                    O sabor vai até 
+                    <span>você</span>
+                </h1>
+                <p class="description">
+                    Levamos o que você precisa até a sua porta, com rapidez, segurança e praticidade.
+                </p>
+                
+                
+                <div id="cta_buttons">
+                    <a href="#" class="btn-defaut">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+55555555" id="phone_button">
+                        <button class="btn-defaut">
+                            <i class="fa-solid fa-phone"></i>
+                            </button>
+                        (41) 98484-2011
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+           </div> 
+           <div id="banner">
+                <img src="imagens/hero.png" alt="">
+           </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">
+                Cardápio
+            </h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="menu">
+  <h2>Cardápio</h2>
+  <p>Nossos pratos especiais</p>
+
+  <div id="dishes">
+
+    <!-- CARD 1 -->
+    <div class="dish">
+      <div class="dish-heart">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+
+      <img src="imagens/dish3.png" class="dish-image" alt="">
+
+      <h3 class="dish-title">Bowl Oriental</h3>
+
+      <span class="dish-description">
+        Frango dourado, cebola roxa, tomates frescos e especiarias em um bowl cheio de cor
+      </span>
+
+      <div class="dish-rate">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <span>(500+)</span>
+      </div>
+
+      <div class="dish-price">
+        <h4>R$65,00</h4>
+        <button class="btn-defaut">
+          <i class="fa-solid fa-basket-shopping"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="dish">
+      <div class="dish-heart">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+
+      <img src="imagens/dish.png" alt="">
+
+      <h3 class="dish-title">Bowl Fresh</h3>
+
+      <span class="dish-description">
+        Frango grelhado, legumes frescos e temperos especiais
+      </span>
+
+      <div class="dish-rate">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <span>(500+)</span>
+      </div>
+
+      <div class="dish-price">
+        <h4>R$65,00</h4>
+        <button class="btn-defaut">
+          <i class="fa-solid fa-basket-shopping"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="dish">
+      <div class="dish-heart">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+
+      <img src="imagens/dish4.png" alt="">
+
+      <h3 class="dish-title">Bowl Veggie</h3>
+
+      <span class="dish-description">
+        Mix de vegetais, tomate cereja e molho especial
+      </span>
+
+      <div class="dish-rate">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <span>(500+)</span>
+      </div>
+
+      <div class="dish-price">
+        <h4>R$65,00</h4>
+        <button class="btn-defaut">
+          <i class="fa-solid fa-basket-shopping"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="dish">
+      <div class="dish-heart">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+
+      <img src="imagens/dish2.png" alt="">
+
+      <h3 class="dish-title">Bowl Premium</h3>
+
+      <span class="dish-description">
+        Frango especial, legumes selecionados e ervas finas
+      </span>
+
+      <div class="dish-rate">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <span>(500+)</span>
+      </div>
+
+      <div class="dish-price">
+        <h4>R$65,00</h4>
+        <button class="btn-defaut">
+          <i class="fa-solid fa-basket-shopping"></i>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+        </section>
+
+        <section id="testimonials">
+            <img src="imagens/chef.png" id="testimonial_chef">
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Avaliações
+                </h2>
+                <h3 class="section-subtitle">
+                    Depoimentos
+                </h3>
+
+                <div id="feedbacks">
+
+  <div class="feedback">
+    <img src="imagens/avatar.png" class="feedback-img">
+    <div class="feedback-content">
+      <p>
+        Roberta de Souza
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+      </p>
+      <p>
+        A comida chegou quentinha, bem embalada e com um sabor incrível do começo ao fim.
+      </p>
+    </div>
+  
+
+  <div class="feedback">
+    <img src="imagens/avatar.png" class="feedback-img">
+    <div class="feedback-content">
+      <p>
+        Rafael Martins
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+      </p>
+      <p>
+        Entrega rápida, comida deliciosa e embalagem impecável, experiência excelente em todos os detalhes.
+      </p>
+    </div>
+  </div>
+
+  <div class="feedback">
+    <img src="imagens/avatar.png" class="feedback-img">
+    <div class="feedback-content">
+      <p>
+        Fernanda Rocha
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+      </p>
+      <p>
+        Sabor maravilhoso, porção bem servida e entrega super rápida, recomendo para todos.
+      </p>
+    </div>
+  </div>
+
+
+
+        <button class="btn-defaut">
+            Ver mais avaliações
+        </button>
+
+
+                </section>
+    </main>
+
+        <footer class="wave">
+            <img src="imagens/wave.svg" alt="">
+
+            <div id="footer_items">
+                <span class="copyright">
+                    &copy; 2026 Thiago Matos
+                </span>
+                    <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+            </div>
+        </footer>
+    
+
+    <script src="src/javascript/script.js">
+
+    </script>
+</body>
+</html>
